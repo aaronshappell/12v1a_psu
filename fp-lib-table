@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name L01-6353)(type KiCad)(uri ${KIPRJMOD}/L01-6353.pretty)(options "")(descr ""))
+  (lib (name L01-6353)(type KiCad)(uri ${KIPRJMOD}/lib/L01-6353.pretty)(options "")(descr ""))
+  (lib (name Heatsink)(type KiCad)(uri ${KIPRJMOD}/lib/Heatsink.pretty)(options "")(descr ""))
 )

@@ -181,7 +181,7 @@ U 1 1 5CCCE349
 P 2150 3000
 F 0 "SW1" H 2150 3235 50  0000 C CNN
 F 1 "SW_SPST" H 2150 3144 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2.5mm" H 2150 3000 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 2150 3000 50  0001 C CNN
 F 3 "~" H 2150 3000 50  0001 C CNN
 	1    2150 3000
 	1    0    0    -1  
@@ -367,8 +367,6 @@ Wire Wire Line
 	2350 3000 2450 3000
 Wire Wire Line
 	2450 3000 2450 2750
-NoConn ~ 3500 2950
-NoConn ~ 3500 3050
 Wire Wire Line
 	6000 3000 6650 3000
 $Comp
@@ -377,7 +375,7 @@ U 1 1 5CDFF7CF
 P 1600 3100
 F 0 "J1" H 1518 2775 50  0000 C CNN
 F 1 "AC_in" H 1518 2866 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2.5mm" H 1600 3100 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 1600 3100 50  0001 C CNN
 F 3 "~" H 1600 3100 50  0001 C CNN
 	1    1600 3100
 	-1   0    0    1   
@@ -388,7 +386,7 @@ U 1 1 5CE0A673
 P 2850 2450
 F 0 "J2" V 2814 2262 50  0000 R CNN
 F 1 "P1" V 2723 2262 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2.5mm" H 2850 2450 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 2850 2450 50  0001 C CNN
 F 3 "~" H 2850 2450 50  0001 C CNN
 	1    2850 2450
 	0    -1   -1   0   
@@ -399,18 +397,16 @@ U 1 1 5CE0ABC9
 P 2950 3550
 F 0 "J3" V 2822 3630 50  0000 L CNN
 F 1 "P2" V 2913 3630 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2.5mm" H 2950 3550 50  0001 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P5.08mm_Drill1.5mm" H 2950 3550 50  0001 C CNN
 F 3 "~" H 2950 3550 50  0001 C CNN
 	1    2950 3550
 	0    1    1    0   
 $EndComp
-NoConn ~ 2950 2650
 Wire Wire Line
 	2450 2750 2850 2750
 Wire Wire Line
 	2850 2650 2850 2750
 Connection ~ 2850 2750
-NoConn ~ 2950 3350
 Wire Wire Line
 	2850 3350 2850 3250
 Connection ~ 2850 3250
@@ -424,4 +420,12 @@ Wire Wire Line
 	2450 3100 2450 3250
 Wire Wire Line
 	2450 3250 2850 3250
+Wire Wire Line
+	2950 3350 2950 3050
+Wire Wire Line
+	2950 3050 3500 3050
+Wire Wire Line
+	2950 2950 2950 2650
+Wire Wire Line
+	3500 2950 2950 2950
 $EndSCHEMATC
