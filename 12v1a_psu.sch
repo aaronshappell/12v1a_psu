@@ -229,7 +229,7 @@ F 0 "R2" V 6493 3000 50  0000 C CNN
 F 1 "3" V 6584 3000 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6630 3000 50  0001 C CNN
 F 3 "~" H 6700 3000 50  0001 C CNN
-F 4 "1/2W" V 6700 3000 50  0000 C CNN "Field4"
+F 4 "1W" V 6700 3000 50  0000 C CNN "Field4"
 	1    6700 3000
 	0    1    1    0   
 $EndComp
@@ -264,7 +264,7 @@ L Connector:Barrel_Jack_Switch J4
 U 1 1 5CCF2AFB
 P 9150 3100
 F 0 "J4" H 8920 3142 50  0000 R CNN
-F 1 "Vout" H 8920 3051 50  0000 R CNN
+F 1 "Barrel_Jack" H 8920 3051 50  0000 R CNN
 F 2 "12v1a_psu:BarrelJack_Horizontal" H 9200 3060 50  0001 C CNN
 F 3 "~" H 9200 3060 50  0001 C CNN
 	1    9150 3100
