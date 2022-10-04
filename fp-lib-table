@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name 12v1a_psu)(type KiCad)(uri ${KIPRJMOD}/lib/12v1a_psu.pretty)(options "")(descr ""))
+  (lib (name "12v1a_psu")(type "KiCad")(uri "${KIPRJMOD}/12v1a_psu.pretty")(options "")(descr ""))
 )
